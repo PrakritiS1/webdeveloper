@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prakriti Singh - Web Developer</title>
+  <meta name="description" content="Prakriti Singh - Web Developer and CS student. I build fast, responsive websites for real businesses. Explore my live projects." />
+  <meta property="og:title" content="Prakriti Singh - Web Developer" />
+  <meta property="og:description" content="Fast, responsive websites for real businesses. Explore my live projects." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">&lt; Prakriti Singh /&gt;</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <p class="hello">Namaste, I'm</p>
+      <h1>Prakriti Singh</h1>
+      <h2 class="role"><span id="typed"></span><span class="cursor">|</span></h2>
+      <p class="hero-text">
+        CS student and freelance web developer. I build fast, responsive websites for real
+        businesses, from dental clinics and gyms to restaurants and construction companies.
+      </p>
+      <div class="socials">
+        <a href="https://github.com/PrakritiS1" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/prakriti-singh23" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:prakritirajput003@gmail.com">Email</a>
+      </div>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+        <a href="#projects" class="btn btn-solid">View Portfolio</a>
+        <a href="assets/Prakriti_Singh_Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- THINGS I LOVE -->
+  <section class="section" id="love">
+    <div class="container">
+      <p class="eyebrow">Interests</p>
+      <h2 class="title">Things I Love</h2>
+      <div class="grid-3">
+        <article class="card reveal">
+          <div class="icon">🎨</div>
+          <h3>Designing</h3>
+          <p>I enjoy turning a blank page into something clean and eye-catching. Spacing, colour and typography decide whether a website feels premium, so I sweat the details.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">💻</div>
+          <h3>Developing</h3>
+          <p>Design comes alive in code. I build responsive websites with HTML, CSS, JavaScript and React, backed by Node.js, Java and Spring Boot when a project needs a real backend.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">🚀</div>
+          <h3>Expanding</h3>
+          <p>After building, I optimize and ship: performance, basic SEO, Docker and live deployment, so a website actually reaches people.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section alt" id="about">
+    <div class="container">
+      <p class="eyebrow">But who am I?</p>
+      <h2 class="title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <!-- Photo lagani ho to niche wali line uncomment karo aur .avatar wali line hata do -->
+          <!-- <img src="assets/portrait.jpg" alt="Prakriti Singh" class="portrait" /> -->
+          <div class="avatar">PS</div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            Hey, I'm Prakriti, a Computer Science Engineering student at Uttaranchal University,
+            Dehradun (CGPA 8.8/10, graduating 2028). I started with websites and grew into
+            full-stack and backend engineering, so I can take a project from design to deployment.
+          </p>
+          <p>
+            I run <strong>Nexora Web Solutions</strong>, my own web design business, and I've built
+            live websites for clinics, gyms, a yoga studio, restaurants, an EV and solar dealer and
+            a construction company. Alongside that, I'm a Software Engineering Intern at ZeTheta,
+            a Google Student Ambassador and a competitive programmer (LeetCode Global Rank 305).
+          </p>
+          <p>My goal is simple: build things that look great, load fast and serve a purpose.</p>
+          <div class="stats">
+            <div><span class="num" data-count="8">0</span><span>Live Websites</span></div>
+            <div><span class="num" data-count="400" data-suffix="+">0</span><span>DSA Problems</span></div>
+            <div><span class="num" data-count="305" data-prefix="#">0</span><span>LeetCode Global Rank</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="eyebrow">What do I know?</p>
+      <h2 class="title">Skills</h2>
+      <p class="sub">Technologies that are part of my current stack:</p>
+      <div class="chips">
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />HTML</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" />CSS</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />JavaScript</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />React</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />Bootstrap</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />Node.js</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="" class="invert" />Express</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" />Java</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="" />Spring Boot</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" />Python</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" />PostgreSQL</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" />MongoDB</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="" />Redis</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="" />Docker</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" alt="" />Kubernetes</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" />AWS</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="" />GCP</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="" class="invert" />Kafka</div>
+      </div>
+
+      <p class="eyebrow" style="margin-top:56px">What I use?</p>
+      <h2 class="title">Tools</h2>
+      <div class="chips">
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="" />VS Code</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" class="invert" />GitHub</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />Git</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="" />Figma</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="" />Canva</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="" />Postman</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="" />Grafana</div>
+        <div class="chip reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="" />Prometheus</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section alt" id="projects">
+    <div class="container">
+      <p class="eyebrow">What I've done?</p>
+      <h2 class="title">Projects</h2>
+      <p class="sub">Real websites, live on the internet. Click any card to open the live site.</p>
+
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="web">Live Websites</button>
+        <button class="filter" data-filter="soft">Software Projects</button>
+      </div>
+
+      <div class="projects" id="projectGrid">
+
+        <!-- 1 Nexora -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/nexora/" target="_blank" rel="noopener" aria-label="Open Nexora Web Solutions">
+            <iframe src="https://prakritis1.github.io/nexora/" loading="lazy" tabindex="-1" title="Nexora Web Solutions preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>Nexora Web Solutions</h3>
+            <p>My own web design business website: services, process, pricing packages and a project enquiry form.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/nexora/" target="_blank" rel="noopener">Visit Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2 Bharat Dental -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/dentist-webiste/" target="_blank" rel="noopener" aria-label="Open Bharat Dental Care">
+            <iframe src="https://prakritis1.github.io/dentist-webiste/" loading="lazy" tabindex="-1" title="Bharat Dental Care preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>Bharat Dental Care</h3>
+            <p>Clinic website for a Dehradun dental practice with services, patient reviews and an online appointment form.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/dentist-webiste/" target="_blank" rel="noopener">Visit Live</a>
+              <a class="btn btn-outline sm" href="https://github.com/PrakritiS1/dentist-webiste" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3 Lumina Dental -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/dentist/" target="_blank" rel="noopener" aria-label="Open Lumina Dental Studio">
+            <iframe src="https://prakritis1.github.io/dentist/" loading="lazy" tabindex="-1" title="Lumina Dental Studio preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>Lumina Dental Studio</h3>
+            <p>A premium, dark-styled dental studio site with a scrolling services marquee, specialties and a booking form.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/dentist/" target="_blank" rel="noopener">Visit Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4 Cross Fit Studio -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/gym/" target="_blank" rel="noopener" aria-label="Open Cross Fit Studio">
+            <iframe src="https://prakritis1.github.io/gym/" loading="lazy" tabindex="-1" title="Cross Fit Studio preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>Cross Fit Studio</h3>
+            <p>High-energy gym website for a Patna fitness studio with classes, reviews, location and click-to-call.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/gym/" target="_blank" rel="noopener">Visit Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5 Yogastha -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/yoga/" target="_blank" rel="noopener" aria-label="Open Yogastha Yoga Studio">
+            <iframe src="https://prakritis1.github.io/yoga/" loading="lazy" tabindex="-1" title="Yogastha Yoga Studio preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Multi-page</span></div>
+            <h3>Yogastha Yoga Studio</h3>
+            <p>Multi-page wellness website with classes, schedule table, pricing plans, FAQ and a free-trial booking page.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/yoga/" target="_blank" rel="noopener">Visit Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6 Sanju Singh Enterprises -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/RahulSingh/" target="_blank" rel="noopener" aria-label="Open Sanju Singh Enterprises">
+            <iframe src="https://prakritis1.github.io/RahulSingh/" loading="lazy" tabindex="-1" title="Sanju Singh Enterprises preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>Sanju Singh Enterprises</h3>
+            <p>Business site for an EV and solar dealer in Banka, Bihar, with product sections, installation gallery and click-to-call.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/RahulSingh/" target="_blank" rel="noopener">Visit Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7 The Mungerian's -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/THE-MUNGER/" target="_blank" rel="noopener" aria-label="Open The Mungerian's Rasoi">
+            <iframe src="https://prakritis1.github.io/THE-MUNGER/" loading="lazy" tabindex="-1" title="The Mungerian's Rasoi preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>The Mungerian's - Rasoi</h3>
+            <p>Restaurant website with filterable menu, gallery lightbox, table reservation, online cart and WhatsApp ordering.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/THE-MUNGER/" target="_blank" rel="noopener">Visit Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8 DAS & DAS -->
+        <article class="project reveal" data-cat="web">
+          <a class="preview" href="https://prakritis1.github.io/Construction/" target="_blank" rel="noopener" aria-label="Open DAS and DAS Enterprises">
+            <iframe src="https://prakritis1.github.io/Construction/" loading="lazy" tabindex="-1" title="DAS and DAS Enterprises preview"></iframe>
+          </a>
+          <div class="project-body">
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>DAS &amp; DAS Enterprises</h3>
+            <p>Construction and materials platform with service catalogue, supply agreements, quote form and an admin dashboard.</p>
+            <div class="links">
+              <a class="btn btn-solid sm" href="https://prakritis1.github.io/Construction/" target="_blank" rel="noopener">Visit Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 9 URL Shortener -->
+        <article class="project reveal" data-cat="soft">
+          <div class="preview placeholder"><span>🔗</span></div>
+          <div class="project-body">
+            <div class="tags"><span>Java</span><span>Spring Boot</span><span>Redis</span><span>PostgreSQL</span><span>Kafka</span><span>Docker</span></div>
+            <h3>Distributed URL Shortener</h3>
+            <p>TinyURL-style system handling 100,000+ requests/day. Redis caching cuts database reads, Kafka powers real-time analytics, 99.95% uptime with Docker.</p>
+            <div class="links">
+              <!-- TODO: is project ka exact repo link daalo -->
+              <a class="btn btn-outline sm" href="https://github.com/PrakritiS1?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 10 Compressly -->
+        <article class="project reveal" data-cat="soft">
+          <div class="preview placeholder"><span>🗜️</span></div>
+          <div class="project-body">
+            <div class="tags"><span>React</span><span>Node.js</span><span>Bootstrap</span><span>Docker</span></div>
+            <h3>Compressly</h3>
+            <p>Smart image compression platform: 5+ formats, around 40% smaller files, 1,000+ concurrent uploads and 50,000+ requests/day.</p>
+            <div class="links">
+              <!-- TODO: repo ya live link daalo -->
+              <a class="btn btn-outline sm" href="https://github.com/PrakritiS1?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 11 Financial Transaction System -->
+        <article class="project reveal" data-cat="soft">
+          <div class="preview placeholder"><span>💳</span></div>
+          <div class="project-body">
+            <div class="tags"><span>Java</span><span>System Design</span><span>Distributed Systems</span></div>
+            <h3>Financial Transaction System</h3>
+            <p>Scalable transaction processor supporting 12,000+ TPS under 100ms latency with 99.9% availability. Query and index tuning cut latency by 77%.</p>
+            <div class="links">
+              <a class="btn btn-outline sm" href="https://github.com/PrakritiS1?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 12 HerGuard AI -->
+        <article class="project reveal" data-cat="soft">
+          <div class="preview placeholder"><span>🛡️</span></div>
+          <div class="project-body">
+            <div class="tags"><span>Android</span><span>AI/ML</span><span>Firebase</span><span>GPS</span></div>
+            <h3>HerGuard AI</h3>
+            <p>Women-safety emergency assistant with real-time GPS tracking, SOS alerts and ML-based threat detection (94% accuracy).</p>
+            <div class="links">
+              <a class="btn btn-outline sm" href="https://github.com/PrakritiS1?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 13 Knightfall -->
+        <article class="project reveal" data-cat="soft">
+          <div class="preview placeholder"><span>♞</span></div>
+          <div class="project-body">
+            <div class="tags"><span>Next.js 15</span><span>TypeScript</span><span>Tailwind</span><span>Razorpay</span></div>
+            <h3>Knightfall <em class="wip">In Progress</em></h3>
+            <p>Dark-premium chess tournament platform for the Indian market, with auth, payments and a Lichess-inspired interface.</p>
+            <div class="links">
+              <a class="btn btn-outline sm" href="https://github.com/PrakritiS1?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="center">
+        <a class="btn btn-outline" href="https://github.com/PrakritiS1?tab=repositories" target="_blank" rel="noopener">See all repositories on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="section" id="journey">
+    <div class="container">
+      <p class="eyebrow">My path so far</p>
+      <h2 class="title">Journey &amp; Achievements</h2>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>Software Engineering Intern, ZeTheta</h4>
+          <p class="t-meta">Jun 2026 - Present</p>
+          <p>Leading backend system design for scalable fintech workflows, optimizing transaction processing and building monitoring and logging infrastructure.</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>Google Student Ambassador</h4>
+          <p class="t-meta">2026</p>
+          <p>Delivered technical workshops on cloud computing and system design and mentored 50+ peers in programming fundamentals.</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>Software Engineering Virtual Intern, JPMorgan Chase &amp; Co.</h4>
+          <p class="t-meta">Dec 2025 - Jan 2026</p>
+          <p>Debugged and optimized simulated transaction-processing systems, improving query performance and logging reliability.</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>Founder, Nexora Web Solutions</h4>
+          <p class="t-meta">Freelance</p>
+          <p>Design and build responsive websites for local businesses, from first sketch to live deployment.</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>Smart India Hackathon</h4>
+          <p class="t-meta">Internal round qualified</p>
+          <p>Built a working prototype in a team under time constraints and qualified the college-level round.</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>Infosys Springboard</h4>
+          <p class="t-meta">Selected cohort</p>
+          <p>Completed AWS Certified Cloud Practitioner (CLF-C02) preparation and a Claude generative-AI course.</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>Competitive Programming</h4>
+          <p class="t-meta">LeetCode</p>
+          <p>Global Rank 305 in a contest of 37,985+ participants, 400+ DSA problems solved. Also: Advanced AI/ML Certification (22/25) and HackerRank SDE Intern Certification.</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-dot"></span>
+          <h4>B.Tech, Computer Science Engineering</h4>
+          <p class="t-meta">Uttaranchal University, Dehradun · Expected 2028 · CGPA 8.8/10</p>
+          <p>Data Structures, Algorithms, Distributed Systems, System Design, Operating Systems, DBMS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section alt" id="contact">
+    <div class="container narrow">
+      <p class="eyebrow">What's next!</p>
+      <h2 class="title">Get In Touch</h2>
+      <p class="sub">Need a website for your business, or want to work together? Send me a message and I'll get back to you.</p>
+      <div class="contact-info">
+        <a href="mailto:prakritirajput003@gmail.com">prakritirajput003@gmail.com</a>
+        <a href="tel:+919279751183">+91 92797 51183</a>
+      </div>
+      <form id="contactForm" class="form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Tell me about your project" required></textarea>
+        <button type="submit" class="btn btn-solid">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Made with HTML, CSS, JS and a lot of chai by Prakriti Singh · © <span id="year"></span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+         
